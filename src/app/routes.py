@@ -1,5 +1,7 @@
 from flask import Blueprint, jsonify, render_template, request, render_template
 from models import Session, Message
+from services import AIService
+
 
 app = Blueprint('app', __name__)
 
