@@ -1,6 +1,6 @@
 from datetime import datetime, timezone
 import uuid
-from azure.cosmos import CosmosClient, PartitionKey,exceptions
+from azure.cosmos import CosmosClient, exceptions
 from config import Config
 
 # Initialize Cosmos DB Client
