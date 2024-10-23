@@ -90,6 +90,7 @@ button:hover {
     margin-right: auto;
     max-height: none; /* Remove height restriction */
     overflow: auto; /* Allow scroll if necessary */
+    max-width: 75%;
     text-align: left;
 }
 
