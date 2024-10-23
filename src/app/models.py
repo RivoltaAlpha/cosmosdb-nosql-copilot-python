@@ -68,7 +68,6 @@ class Message:
         except Exception as e:
             print(f"Error saving Message {self.id}: {e}")
 
-    # This function is used to generate a response using the AIService class in services.py. It's then called in routes.py
     def generate_completion(self):
         from services import AIService
         ai_service = AIService()
