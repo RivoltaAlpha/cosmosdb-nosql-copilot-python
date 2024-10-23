@@ -49,6 +49,13 @@
 
                         // Clear the input field
                         document.getElementById("prompt").value = "";
+
+                        // Function to format raw text with ** markers for bold
+                        function formatRawText(rawText) {
+                            // Replace **text** with <strong>text</strong> for bold formatting
+                            return rawText.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+                        }
+
                     } catch (error) {
                         console.error('Error:', error);
                     }
